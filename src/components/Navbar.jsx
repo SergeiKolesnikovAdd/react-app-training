@@ -1,6 +1,8 @@
+import classes from './Navbar.module.scss'
+
 const Navbar = () => {
     return (
-        <nav className="nav-section">
+        <nav className={classes.section}>
             <a href="#" className="" >Profile</a>
             <a href="#" className="" >Messages</a>
             <a href="#" className="" >News</a>
