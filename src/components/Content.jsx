@@ -1,10 +1,10 @@
 import Navbar from './Navbar';
 import Profile from './Profile';
-
+import classes from './Content.module.scss'
 
 const Content = () => {
     return (
-        <div className="content-section">
+        <div className={classes.section}>
             <Navbar/>
             <Profile/>
             
