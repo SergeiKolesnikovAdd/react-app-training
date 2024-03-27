@@ -1,3 +1,4 @@
+import MyPosts from './MyPosts/MyPosts';
 import classes from './Profile.module.scss'
 
 const Profile =() => {
@@ -17,12 +18,7 @@ return (
             <span className={classes.detail}>Web-site:</span>
         </div>
     </div>
-    {/* {posts} */}
-    <div className={classes.posts}>
-        NEW POSTS
-        <div className={classes.item}>POST 1</div>
-        <div className={classes.item}>POST 2</div>
-    </div>
+    <MyPosts/>
 </div>
 )
 };
