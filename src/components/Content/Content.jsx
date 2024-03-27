@@ -1,5 +1,5 @@
-import Navbar from './Navbar';
-import Profile from './Profile';
+import Navbar from '../Navbar/Navbar';
+import Profile from '../Profile/Profile';
 import classes from './Content.module.scss'
 
 const Content = () => {
@@ -7,8 +7,6 @@ const Content = () => {
         <div className={classes.section}>
             <Navbar/>
             <Profile/>
-            
-            
         </div>
     )
 };
